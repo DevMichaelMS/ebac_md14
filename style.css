@@ -30,3 +30,7 @@ body {
     font-family: "Bangers", sans-serif;
     font-size: 1.3rem;
 }
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
