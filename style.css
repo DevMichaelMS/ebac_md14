@@ -1,0 +1,32 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #c40000;
+}
+
+.nav .nav-link.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #ffffff;
+}
+.nav .nav-link:hover {
+    background-color: #131313;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: "Chicle", sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    font-family: "Bangers", sans-serif;
+    font-size: 1.3rem;
+}
