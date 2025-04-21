@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #c40000;
+    background-color: #8b0000;
 }
 
 .nav .nav-link.active {
@@ -33,4 +33,31 @@ body {
 
 .navbar-toggler {
     background-color: #ffffff;
+}
+
+.logo {
+    width: 125px;
+    height: auto; 
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    border-radius: 8px;
+    border: 12px solid rgba(116, 1, 1, 0.8);
+}
+
+.section-title {
+    font-family: "Chicle", sans-serif;
+}
+
+.section-title span {
+    color: #8b0000;
+}
+
+#sobre {
+    background-color: #ffd8d8;
 }
