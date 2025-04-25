@@ -6,17 +6,17 @@ body {
     background-color: #8b0000;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #000000;
     color: #ffffff;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
     color: #ffffff;
 }
-.nav .nav-link:hover {
+#cabecalho .nav .nav-link:hover {
     background-color: #131313;
     color: #ffffff;
 }
@@ -40,6 +40,13 @@ body {
     height: auto; 
 }
 
+#sobre-img {
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+
+}
+
 .carousel-inner img {
     height: 400px;
     object-fit: cover;
@@ -58,6 +65,30 @@ body {
     color: #8b0000;
 }
 
-#sobre {
+#sobre, #cardapio {
     background-color: #ffd8d8;
+}
+
+.text-colored {
+    color: #8b0000;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+.nav-cardapio .nav-link:hover {
+    background-color: #4d0000;
+    color: #ffffff;
+}
+
+.cardapio-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#rodape {
+    background-color: #8b0000;
+    color: #ffffff;
 }
