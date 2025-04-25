@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="scrollspy" data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-offset="50">
+<body class="scrollspy" data-bs-spy="scroll" data-bs-smooth="true" data-bs-target="#cabecalho" data-bs-offset="50">
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
                 <img src="imgs/logo.png" alt="logo" class="logo">
@@ -52,7 +52,24 @@
         </div>
     </header>
 
-    <div class="" data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <div class="modal fade" id="confirmacao" tabindex="-1" aria-labelledby="confirmacaoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-tittle" id="confirmacaoLabel">Formulário Enviado!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Seu Formulário foi enviado com sucesso!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
         <section id="sobre">
             <div class="container">
                 <div class="carousel slide" data-bs-ride="carousel" id="carousel">
@@ -340,7 +357,7 @@
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-7">
-                    <form method="post" class="bg-light p-4 rounded">
+                    <form id="form-contato" method="post" class="bg-light p-4 rounded">
                         <div class="mb-3">
                             <label for="nome" class="form-label fw-bold text-colored">Nome</label>
                             <input type="text" class="form-control" id="nome" name="nome" required>
@@ -415,6 +432,13 @@
         </div>
     </footer>
 
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
